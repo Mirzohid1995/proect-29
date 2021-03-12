@@ -1,0 +1,225 @@
+/**************** COLORS ******************/
+/**************** ICONS STYLE ******************/
+.icon {
+  width: 20px;
+  height: 20px;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: sub;
+  background-color: white; }
+  .icon.icon-home {
+    mask-image: url("../icons/home.svg");
+    -webkit-mask-image: url("../icons/home.svg"); }
+  .icon.icon-companies {
+    mask-image: url("../icons/organization_30px.png");
+    -webkit-mask-image: url("../icons/organization_30px.png"); }
+  .icon.icon-users {
+    mask-image: url("../icons/add_user_group_man_man_50px.png");
+    -webkit-mask-image: url("../icons/add_user_group_man_man_50px.png"); }
+  .icon.icon-messege {
+    mask-image: url("../icons/group_message_50px.png");
+    -webkit-mask-image: url("../icons/group_message_50px.png"); }
+  .icon.icon-mail2 {
+    mask-image: url("../icons/group_message_50px.png");
+    -webkit-mask-image: url("../icons/group_message_50px.png");
+    width: 15px;
+    height: 15px; }
+  .icon.icon-storm {
+    mask-image: url("../icons/lightning_bolt_50px.png");
+    -webkit-mask-image: url("../icons/lightning_bolt_50px.png"); }
+  .icon.icon-project {
+    mask-image: url("../icons/microsoft_project_24px.png");
+    -webkit-mask-image: url("../icons/microsoft_project_24px.png"); }
+  .icon.icon-newJob {
+    mask-image: url("../icons/new_job_50px.png");
+    -webkit-mask-image: url("../icons/new_job_50px.png"); }
+  .icon.icon-search {
+    mask-image: url("../icons/search.svg");
+    -webkit-mask-image: url("../icons/search.svg");
+    background-color: #E44D3A; }
+  .icon.icon-list {
+    mask-image: url("../icons/table_of_content_24px.png");
+    -webkit-mask-image: url("../icons/table_of_content_24px.png");
+    background-color: #B7B7B8; }
+  .icon.icon-plus {
+    mask-image: url("../icons/plus_math_24px.png");
+    -webkit-mask-image: url("../icons/plus_math_24px.png");
+    background-color: #B7B7B8; }
+  .icon.icon-clock {
+    mask-image: url("../icons/clock_50px.png");
+    -webkit-mask-image: url("../icons/clock_50px.png");
+    background-color: #B7B7B8;
+    width: 15px;
+    height: 15px; }
+  .icon.icon-bookmark {
+    mask-image: url("../icons/bookmark.svg");
+    -webkit-mask-image: url("../icons/bookmark.svg"); }
+  .icon.icon-mail {
+    mask-image: url("../icons/envelope.svg");
+    -webkit-mask-image: url("../icons/envelope.svg"); }
+  .icon.icon-like {
+    mask-image: url("../icons/heart_outline_26px.png");
+    -webkit-mask-image: url("../icons/heart_outline_26px.png");
+    background-color: #B7B7B8; }
+  .icon.icon-comment {
+    mask-image: url("../icons/comments_30px.png");
+    -webkit-mask-image: url("../icons/comments_30px.png");
+    background-color: #B7B7B8; }
+  .icon.icon-eye {
+    mask-image: url("../icons/eye.svg");
+    -webkit-mask-image: url("../icons/eye.svg");
+    background-color: #B7B7B8; }
+
+/******************* MAIN STYLE *******************/
+body {
+  background-color: #F2F2F2; }
+  body .color-nav {
+    background-color: #E44D3A; }
+  body .silver {
+    background-color: #dfdfdf; }
+  body .fs-12 {
+    font-size: 12px; }
+  body .fs-13 {
+    font-size: 13px; }
+  body .fs-18 {
+    font-size: 18px; }
+  body .circle {
+    width: 50px;
+    height: 50px; }
+  body nav {
+    background-color: #E44D3A; }
+    body nav .container .navbar .collapse .input-group {
+      width: 340px; }
+    body nav .container .navbar .collapse .dropdown {
+      border-right: 1px solid #404040;
+      border-left: 1px solid #404040;
+      width: 115px;
+      margin: 0 auto; }
+  body main #section1 .container .row .col-3 .row .col-12 .card .card-header {
+    height: 110px;
+    position: relative; }
+    body main #section1 .container .row .col-3 .row .col-12 .card .card-header .circle {
+      width: 110px;
+      height: 110px;
+      position: absolute;
+      bottom: -50px; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-prev, body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-next {
+    width: 30px;
+    height: 30px;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    position: absolute;
+    top: 40%;
+    left: -40px; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-prev span, body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-next span {
+    font-size: 32px;
+    line-height: 16px; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-next {
+    right: -40px;
+    left: unset; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-next:focus, body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-prev:focus {
+    outline: none; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-prev:hover span, body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-next:hover span {
+    color: black; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .card-body .owl-carousel .owl-dot {
+    outline: none !important; }
+  body main #section1 .container .row .col-6 .row .col-12 .card .box {
+    height: 5px;
+    background-color: #E44D3A; }
+  body main #section1 .container .row .col-12 .circle .spinder {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: silver; }
+    body main #section1 .container .row .col-12 .circle .spinder:nth-child(1) {
+      animation-name: anim1;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; }
+    body main #section1 .container .row .col-12 .circle .spinder:nth-child(2) {
+      animation-name: anim2;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; }
+    body main #section1 .container .row .col-12 .circle .spinder:nth-child(3) {
+      animation-name: anim3;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; }
+  body main #section2 {
+    display: none; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-header {
+      height: 110px;
+      position: relative; }
+      body main #section2 .container .row .col-12 .row .col-12 .card .card-header .circle {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        bottom: -50px; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-prev, body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-next {
+      width: 30px;
+      height: 30px;
+      background-color: #fff !important;
+      border-radius: 50% !important;
+      position: absolute;
+      top: 40%;
+      left: -40px; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-prev span, body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-next span {
+      font-size: 32px;
+      line-height: 16px; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-next {
+      right: -40px;
+      left: unset; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-next:focus, body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-prev:focus {
+      outline: none; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-prev:hover span, body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-next:hover span {
+      color: black; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .card-body .owl-carousel .owl-dot {
+      outline: none !important; }
+    body main #section2 .container .row .col-12 .row .col-12 .card .box {
+      height: 5px;
+      background-color: #E44D3A; }
+    body main #section2 .container .row .col-12 .circle .spinder {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: silver; }
+      body main #section2 .container .row .col-12 .circle .spinder:nth-child(1) {
+        animation-name: anim1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; }
+      body main #section2 .container .row .col-12 .circle .spinder:nth-child(2) {
+        animation-name: anim2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; }
+      body main #section2 .container .row .col-12 .circle .spinder:nth-child(3) {
+        animation-name: anim3;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; }
+
+/***************** KEYFRAMES *******************/
+@keyframes anim1 {
+  33% {
+    transform: scale(-1); } }
+@keyframes anim2 {
+  66% {
+    transform: scale(-1); } }
+@keyframes anim3 {
+  99% {
+    transform: scale(-1); } }
+/******************* MEDIA STYLE *****************/
+@media (max-width: 1199px) {
+  body nav .container .navbar .collapse .input-group {
+    width: 100%; }
+  body main #section1 {
+    display: none; }
+  body main #section2 {
+    display: block; } }
+
+/*# sourceMappingURL=main.css.map */
